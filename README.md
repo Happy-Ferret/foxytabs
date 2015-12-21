@@ -1,4 +1,4 @@
-# foxytabs
+# Foxy Tabs
 Chrome new tab extension<br>
 Contributes and requests are welcome<br>
 Download link: <a target="_blank" href="https://chrome.google.com/webstore/detail/foxy-tabs/legkgkghbgdnjniakjhbecfiohcapejh">Chrome webstore</a>
