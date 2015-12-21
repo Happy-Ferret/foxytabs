@@ -1,0 +1,106 @@
+<div class="window" id="window-settings">
+
+	<div class="front">
+
+		<div class="header"><text i18n="settings"></text></div>
+
+		<ul class="tabs_icons clearfix">
+			<li id="columns_tab_icon"    class="active"><span class="icon-th-thumb-empty"></span><text i18n="columns"></text></li>
+			<li id="appearance_tab_icon"               ><span class="icon-brush"         ></span><text i18n="appearance"></text></li>
+			<li id="backup_tab_icon"                   ><span class="icon-floppy"        ></span><text i18n="backup"></text></li>
+		</ul>
+
+		<div class="inner clearfix">
+
+
+
+			<!-- Columns -->
+
+			<div class="tab" id="columns">
+
+				<!-- Number of columns in grid -->
+
+				<small><text i18n="num_of_col_grid"></text>:<span id="columns-grid-slider-amount"></span><br></small>
+				<div class="slider" id="columns-grid-slider"></div>
+
+				<!-- Number of columns in list -->
+
+				<small><text i18n="num_of_col_list"></text>:<span id="columns-list-slider-amount"></span><br></small>
+				<div class="slider" id="columns-list-slider"></div>
+
+				<!-- Max page width -->
+
+				<small><text i18n="max_page_width"></text>:<span id="max-width-slider-amount"></span>&nbsp;px<br></small>
+				<div class="slider" id="max-width-slider"></div>
+
+			</div>
+
+
+
+			<!-- Appearance -->
+
+			<div class="tab" id="appearance">
+
+				<!-- Styles -->
+
+				<h3 class="line"><text i18n="style"></text></h3>
+				<ul class="styles" do="settings|applyStyle|this.attr-style">
+					<li ctrl attr-style="light"></li>
+					<li ctrl attr-style="dark"></li>
+				</ul>
+
+				<!-- Colors -->
+
+				<h3 class="line"><text i18n="colors"></text></h3>
+				<ul class="colors" do="settings|applyColors|this.attr-color"></ul>
+				<span id="colors-colorpicker"><span class="icon-pipette"></span></span>
+
+				<!-- Background -->
+
+				<h3 class="line"><text i18n="background"></text></h3>
+				<ul class="backgrounds" do="settings|applyBackground|this.attr-bg"></ul>
+				<label id="img-upload-label" for="img-upload" class="upload">
+					<span class="icon-upload-cloud"></span>
+				</label>
+				<input id="img-upload" type="file" accept=".jpeg,.jpg,.png,.gif,.tiff,.bmp,.xcf" />
+
+			</div>
+
+
+
+			<!-- Backup -->
+
+			<div class="tab" id="backup">
+
+				<h3 class="line"><text i18n="auto_backup"></text></h3>
+				<div class="small"><p><text i18n="not_available"></text></p></div>
+
+				<h3 class="line"><text i18n="manual_backup"></text></h3>
+				<div class="small">
+					<input id="backup-upload" type="file" accept=".json" />
+					<label for="backup-upload" class="button grey"><span class="icon-login"></span><text i18n="import"></text></label>
+					<span class="button grey" ctrl do="settings|export_data"><span class="icon-logout"></span><text i18n="export"></text></span>
+				</div>
+
+				<h3 class="line"><text i18n="reset"></text></h3>
+				<div class="small">
+					<span class="button grey" ctrl do="settings|reset_settings"><span class="icon-trash"></span><text i18n="settings"></text></span>
+					<span class="button grey" ctrl do="settings|reset_bookmarks"><span class="icon-trash"></span><text i18n="bookmarks"></text></span>
+				</div>
+
+			</div>
+
+
+
+			<!-- Buttons -->
+
+			<div class="buttons clearfix" style="text-align:center;">
+				<span ctrl do="settings|save" class="button colorful"><span class="icon-ok"></span><text i18n="apply"></text></span>
+				<span ctrl do="settings|restore" class="button grey"><span class="icon-cancel"></span><text i18n="cancel"></text></span>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>

@@ -1,0 +1,68 @@
+// out: compiled/colors-template.css, compress: true, strictMath: true
+
+a { color: $color; }
+a:hover { color: $hover; }
+
+/* top */
+
+#groups li { border-bottom-color: $color; }
+
+body.light {
+	nav#menu {
+		span:hover {
+			border: 1px $hover solid;
+			color: #fff;
+			background: $hover;
+		}
+		i.icon-plus:hover {
+			background: $hover;
+		}
+	}
+}
+
+body.dark {
+	nav#menu {
+		span:hover {
+			border: 1px #242424 solid;
+			color: $hover;
+			background: #242424;
+		}
+		i.icon-plus:hover {
+			background: $hover;
+		}
+	}
+}
+
+/* bookmarks */
+
+#bookmarks #groups li:hover { background: $color; }
+
+/* slider */
+
+.ui-slider-handle.ui-state-default,
+.ui-slider-handle.ui-state-hover,
+.ui-slider-handle.ui-state-focus { border: 1px solid $color; background: $color; }
+
+/* buttons */
+
+body.light, body.dark {
+
+	.button.colorful {
+		background: $color;
+		&:hover { background: $hover; }
+	}
+
+	.button.grey:hover,
+	.small .button.grey:hover {
+		background: $hover;
+		color: #fff;
+	}
+
+	.add_subgroup {
+		background: $color;
+		&:hover { background: $hover; }
+	}
+
+}
+
+body.light, body.dark { span.selected { background: $color!important; color: #fff!important; } }

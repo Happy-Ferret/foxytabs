@@ -1,0 +1,26 @@
+{
+	"bookmarks": {
+		"home12312312": {
+			"0": {"title":"VK","href":"http://vk.com/feed"},
+			"1": {"title":"Facebook","href":"http://facebook.com/"},
+			"2": {"title":"Twitter","href":"http://twitter.com/"},
+			"3": {"title":"YouTube","href":"https://www.youtube.com/feed/subscriptions"},
+			"4": {"title":"Wikipedia","href":"https://en.wikipedia.org/wiki/Main_Page"},
+			"properties": {"title":"Home","view":"grid","i":1,"icon":"icon-home"}
+		},
+		"google123123": {
+			"0": {"title":"Google","href":"http://google.com/"},
+			"1": {"title":"Maps","href":"https://google.com/maps"},
+			"2": {"title":"Images","href":"https://google.com/imghp"},
+			"3": {"title":"Gmail","href":"https://mail.google.com/mail/?tab=wm"},
+			"4": {"title":"Drive","href":"https://drive.google.com/?tab=wo"},
+			"5": {"title":"Translate","href":"https://translate.google.ru/?hl=ru&tab=wT"},
+			"6": {"title":"Google+","href":"https://plus.google.com/?gpsrc=ogpy0&tab=wX"},
+			"properties": {"title":"Google","view":"grid","i":2}
+		},
+		"cool12312312": {
+			"0": {"title":"Click here!","href":"special|your-site","img":"img/your-site.svg"},
+			"properties": {"title":"Check out these sites!","view":"grid","i":3,"icon":"icon-star"}
+		}
+	}
+}

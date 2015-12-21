@@ -1,0 +1,141 @@
+<div class="window" id="window-edit-group">
+
+	<div class="front">
+
+		<div class="header"><text></text></div>
+
+		<div class="inner clearfix">
+
+			<!-- Title -->
+
+			<h3><text i18n="title"></text></h3>
+			<input id="main_title" type="text" name="title">
+
+			<div class="row clearfix">
+
+				<!-- Icon selector -->
+
+				<div class="col lg-8">
+					<h3 style="margin-top:4px;"><text i18n="icon"></text></h3>
+					<span ctrl do="dialogues|show_icons_list" class="selectedicon"></span>
+				</div>
+
+				<!-- View selector -->
+
+				<div class="col lg-4 view-selector" do="select">
+					<h3 style="margin:4px 0 3px 6px;"><text i18n="layout"></text></h3>
+					<span ctrl attr-x="list" class="list icon-th-list"></span>
+					<span ctrl attr-x="grid" class="grid icon-th-thumb-empty"></span>
+				</div>
+
+			</div>
+
+			<!-- Subgroups -->
+
+			<h3 class="line shortline"><text i18n="subgroups"></text></h3>
+
+			<span ctrl do="groups|addSubgroup" class="add_subgroup icon-plus"></span>
+
+			<ul id="subgroups"></ul>
+
+			<!-- Buttons -->
+
+			<div class="buttons clearfix" style="float:right;">
+				<span ctrl do="groups|addEdit" class="button colorful"><span class="icon-ok"></span><text i18n="save"></text></span>
+				<span ctrl do="dialogues|close" class="button grey"><span class="icon-cancel"></span><text i18n="cancel"></text></span>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="back">
+
+		<div class="header"><text i18n="select_icon"></text></div>
+
+		<div id="group-icons" class="inner clearfix">
+
+			<div class="group-icons-inner clearfix" do="select">
+				<span ctrl class="empty"></span>
+				<span ctrl class="icon-search"></span>
+				<span ctrl class="icon-mail"></span>
+				<span ctrl class="icon-mail-alt"></span>
+				<span ctrl class="icon-heart"></span>
+				<span ctrl class="icon-heart-empty"></span>
+				<span ctrl class="icon-star"></span>
+				<span ctrl class="icon-star-empty"></span>
+				<span ctrl class="icon-picture"></span>
+				<span ctrl class="icon-video"></span>
+				<span ctrl class="icon-male"></span>
+				<span ctrl class="icon-users"></span>
+				<span ctrl class="icon-user"></span>
+				<span ctrl class="icon-music"></span>
+				<span ctrl class="icon-camera-alt"></span>
+				<span ctrl class="icon-ok"></span>
+				<span ctrl class="icon-cancel"></span>
+				<span ctrl class="icon-plus"></span>
+				<span ctrl class="icon-minus"></span>
+				<span ctrl class="icon-home"></span>
+				<span ctrl class="icon-link"></span>
+				<span ctrl class="icon-lock"></span>
+				<span ctrl class="icon-attach"></span>
+				<span ctrl class="icon-eye"></span>
+				<span ctrl class="icon-eye-off"></span>
+				<span ctrl class="icon-tags"></span>
+				<span ctrl class="icon-download-cloud"></span>
+				<span ctrl class="icon-share"></span>
+				<span ctrl class="icon-chat"></span>
+				<span ctrl class="icon-bell"></span>
+				<span ctrl class="icon-location"></span>
+				<span ctrl class="icon-trash"></span>
+				<span ctrl class="icon-sliders"></span>
+				<span ctrl class="icon-folder-open"></span>
+				<span ctrl class="icon-folder"></span>
+				<span ctrl class="icon-folder-empty"></span>
+				<span ctrl class="icon-folder-open-empty"></span>
+				<span ctrl class="icon-rss"></span>
+				<span ctrl class="icon-cog"></span>
+				<span ctrl class="icon-wrench"></span>
+				<span ctrl class="icon-basket"></span>
+				<span ctrl class="icon-login"></span>
+				<span ctrl class="icon-logout"></span>
+				<span ctrl class="icon-mic"></span>
+				<span ctrl class="icon-headphones"></span>
+				<span ctrl class="icon-clock"></span>
+				<span ctrl class="icon-lightbulb"></span>
+				<span ctrl class="icon-desktop"></span>
+				<span ctrl class="icon-globe"></span>
+				<span ctrl class="icon-flash"></span>
+				<span ctrl class="icon-flight"></span>
+				<span ctrl class="icon-gift"></span>
+				<span ctrl class="icon-cab"></span>
+				<span ctrl class="icon-apple"></span>
+				<span ctrl class="icon-android"></span>
+				<span ctrl class="icon-windows"></span>
+				<span ctrl class="icon-cubes"></span>
+				<span ctrl class="icon-ok-1"></span>
+				<span ctrl class="icon-upload-cloud"></span>
+				<span ctrl class="icon-pencil"></span>
+				<span ctrl class="icon-mobile"></span>
+				<span ctrl class="icon-chart-line"></span>
+				<span ctrl class="icon-floppy"></span>
+				<span ctrl class="icon-magic"></span>
+				<span ctrl class="icon-smile"></span>
+				<span ctrl class="icon-brush"></span>
+				<span ctrl class="icon-google"></span>
+				<span ctrl class="icon-info"></span>
+				<span ctrl class="icon-th-thumb-empty"></span>
+				<span ctrl class="icon-th-list"></span>
+			</div>
+
+			<br>
+			<div class="buttons clearfix" style="float:right;">
+				<span ctrl do="dialogues|confirm_icon" class="button colorful"><span class="icon-ok"></span><text i18n="save"></text></span>
+				<span ctrl do="dialogues|close_icons_list" class="button grey"><span class="icon-cancel"></span><text i18n="cancel"></text></span>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>

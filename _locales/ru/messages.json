@@ -1,0 +1,182 @@
+{
+
+	// groups
+
+	"add_group": {
+		"message": "Создать новую группу"
+	},
+	"edit_group": {
+		"message": "Редактировать группу"
+	},
+	"remove_group": {
+		"message": "Удалить группу"
+	},
+	"confirm_remove_group": {
+		"message": "Вы действительно хотите удалить эту группу и все закладки в ней?"
+	},
+	"cant_remove_group": {
+		"message": "Вы не можете удалить последнюю группу"
+	},
+
+	// notifications
+
+	"no_file_selected": {
+		"message": "Пожалуйста выберите сначала файл"
+	},
+	"not_valid_json": {
+		"message": "Этот файл не содержит закладок Foxy Tabs"
+	},
+
+	// bookmarks
+
+	"add_bookmark": {
+		"message": "Добавить новую закладку"
+	},
+	"edit_bookmark": {
+		"message": "Редактировать закладку"
+	},
+	"remove_bookmark": {
+		"message": "Удалить закладку"
+	},
+	"confirm_remove_bookmark": {
+		"message": "Вы действительно хотите удалить эту закладку?"
+	},
+
+	// buttons
+
+	"ok": {
+		"message": "OK"
+	},
+	"apply": {
+		"message": "Применить"
+	},
+	"save": {
+		"message": "Сохранить"
+	},
+	"cancel": {
+		"message": "Отменить"
+	},
+
+	// settings
+
+	"columns": {
+		"message": "Колонки"
+	},
+	"appearance": {
+		"message": "Внешний вид"
+	},
+	"backup": {
+		"message": "Бэкап"
+	},
+	"num_of_col_grid": {
+		"message": "Число плиток в ряду"
+	},
+	"num_of_col_list": {
+		"message": "Число колонок в списке"
+	},
+	"max_page_width": {
+		"message": "Максимальная ширина страницы"
+	},
+	"style": {
+		"message": "Стиль"
+	},
+	"light": {
+		"message": "Светлый"
+	},
+	"dark": {
+		"message": "Темный"
+	},
+	"colors": {
+		"message": "Цвета"
+	},
+	"background": {
+		"message": "Фоновый рисунок"
+	},
+	"upload": {
+		"message": "Загрузить"
+	},
+	"import": {
+		"message": "Импорт"
+	},
+	"export": {
+		"message": "Экспорт"
+	},
+	"auto_backup": {
+		"message": "Автоматическое резервное копирование"
+	},
+	"not_available": {
+		"message": "Пока недоступно"
+	},
+	"manual_backup": {
+		"message": "Ручное резервное копирование"
+	},
+	"reset": {
+		"message": "Восстановить исходные данные"
+	},
+
+	// other
+
+	"add_bookmark_to": {
+		"message": "Добавить закладку в:"
+	},
+	"search_for": {
+		"message": "Искать..."
+	},
+	"blank_bookmark": {
+		"message": "Открыть в новой вкладке"
+	},
+	"title": {
+		"message": "Название"
+	},
+	"icon": {
+		"message": "Значок"
+	},
+	"select_icon": {
+		"message": "Выберите значок"
+	},
+	"select": {
+		"message": "Выбрать"
+	},
+	"layout": {
+		"message": "Вид"
+	},
+	"image_url": {
+		"message": "URL изображения"
+	},
+	"subgroups": {
+		"message": "Подгруппы"
+	},
+	"subgroup_name": {
+		"message": "Название подгруппы"
+	},
+	"remove": {
+		"message": "Удалить"
+	},
+	"url": {
+		"message": "URL"
+	},
+	"image": {
+		"message": "Изображение"
+	},
+	"extensions": {
+		"message": "Расширения"
+	},
+	"downloads": {
+		"message": "Загрузки"
+	},
+	"bookmarks": {
+		"message": "Закладки"
+	},
+	"settings": {
+		"message": "Настройки"
+	},
+	"about_chrome": {
+		"message": "О Chrome"
+	},
+	"donation": {
+		"message": "FoxyTabs бесплатен. Вы можете поддержать нас и пожертвовать несколько рублей, нажав сюда:"
+	},
+	"donate": {
+		"message": "Пожертвовать"
+	}
+}

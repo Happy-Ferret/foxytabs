@@ -1,1 +1,110 @@
-kek
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<link rel="stylesheet" type="text/css" href="less/reset.min.css" />
+		<link rel="stylesheet" type="text/css" href="less/fontello.css" />
+		<link rel="stylesheet" type="text/css" href="less/jquery-ui.min.css" />
+		<link rel="stylesheet" type="text/css" href="less/compiled/style.css" />
+
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/sortable.min.js"></script>
+		<script type="text/javascript" src="js/sortable.jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+
+	<body>
+
+		<div id="top">
+			<div class="container">
+				<div>
+
+				<nav id="menu">
+	<!--				<span ctrl class="icon-bell" do="App|viewNotifications"></span>-->
+	<!--				<span ctrl class="icon-cancel" do="App|showRecentlyClosedTabs"></span>-->
+	<!--				<span ctrl class="icon-clock" do="App|viewHistory"></span>-->
+					<span ctrl class="icon-cog" do="settings|show"></span>
+					<span ctrl class="icon-cubes" do="Dev|show_all_default_images"></span>
+					<div class="chrome">
+						<img src="img/chrome.svg"/>
+						<ul>
+							<div class="triangle"></div>
+							<li ctrl do="App|open|downloads"><i class="icon-download-cloud"></i><text i18n="downloads"></li>
+							<li ctrl do="App|open|bookmarks"><i class="icon-tags"></i><text i18n="bookmarks"></li>
+							<li ctrl do="App|open|extensions"><i class="icon-cubes"></i><text i18n="extensions"></li><i ctrl do="App|open|addext" class="icon-plus"></i>
+							<li ctrl do="App|open|settings"><i class="icon-cog"></i><text i18n="settings"></li>
+							<li ctrl do="App|open|chrome"><i class="icon-info"></i><text i18n="about_chrome"></li>
+						</ul>
+					</div>
+				</nav>
+
+	<!--
+				<div id="apply-cancel">
+					<span ctrl do="settings|save" class="button apply"><span class="icon-ok"></span><text i18n="apply"></text></span>
+					<span ctrl do="settings|restore" class="button cancel"><span class="icon-cancel"></span><text i18n="cancel"></text></span>
+				</div>
+	-->
+
+	<!--			<img src="img/logo.svg" id="logo">-->
+
+	<!--
+				<div style="height:0px;">
+					<img src="http://imgh.us/twitter_9.svg">
+					<img src="http://www.ucarecdn.com/c1af5cb1-9e52-4477-8df4-e19843087310/twitter.svg">
+				</div>
+	-->
+
+				<form id="searchbar">
+					<button class="button" type="submit" ctrl do="App|search"><span class="icon-search"></span></button>
+					<input type="text" name="search" autocomplete="off">
+				</form>
+
+				<div id="groups" class="clearfix"></div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="content">
+			<div class="container">
+
+			<!-- Bookmarks -->
+
+			<div id="bookmarks">
+
+				<div class="bookmarks-inner">
+					<div class="bookmarks-inner-inner clearfix"></div>
+				</div>
+
+			</div>
+
+			</div>
+		</div>
+
+		<!-- Context Menus -->
+
+		<ul id="group-menu" class="context-menu">
+			<li ctrl do="dialogues|show|group,edit"><i class="icon-pencil"></i><text i18n="edit_group"></text></li>
+			<li ctrl do="dialogues|show|group,remove"><i class="icon-trash"></i><text i18n="remove_group"></text></li>
+		</ul>
+
+		<ul id="bookmark-menu" class="context-menu">
+			<li ctrl do="App|open|href" class="blank-bookmark"><i class="icon-link-ext"></i><text i18n="blank_bookmark"></text></li>
+			<span class="line"></span>
+			<li ctrl do="dialogues|show|bookmark,edit"><i class="icon-pencil"></i><text i18n="edit_bookmark"></text></li>
+			<li ctrl do="dialogues|show|bookmark,remove"><i class="icon-trash"></i><text i18n="remove_bookmark"></text></li>
+		</ul>
+
+		<div id="overlay"></div>
+
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/FileSaver.min.js"></script>
+		<script type="text/javascript" src="js/jqColorPicker.min.js"></script>
+
+	</body>
+</html>

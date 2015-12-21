@@ -1,0 +1,34 @@
+{
+	"default_locale": "en",
+	"manifest_version": 2,
+
+	"name": "Foxy Tabs",
+	"short_name": "Foxy Tabs",
+	"description": "Awesome modern new tab start page",
+	"version": "0.1.4",
+
+	"chrome_url_overrides" : {
+		"newtab": "index.html"
+	},
+
+	"browser_action": {
+		"default_popup": "views/popup.html"
+	},
+
+	"icons": {
+		"16": "img/icons/logo16.png",
+		"32": "img/icons/logo32.png",
+		"48": "img/icons/logo48.png",
+		"128": "img/icons/logo128.png",
+		"256": "img/icons/logo256.png"
+	},
+
+	"permissions": [
+		"activeTab",
+		"storage",
+		"unlimitedStorage",
+		"sessions",
+		"https://ajax.googleapis.com/",
+		"http://imgh.us/"
+	]
+}

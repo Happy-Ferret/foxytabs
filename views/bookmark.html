@@ -1,0 +1,60 @@
+<div class="window" id="window-edit-bookmark">
+
+	<div class="front">
+
+		<div class="header"><text></text></div>
+
+		<div class="inner clearfix">
+
+			<!-- Title -->
+
+			<h3><text i18n="title"></text></h3>
+			<input id="main_title" type="text" name="title">
+
+			<!-- URL -->
+
+			<h3 style="margin-top:3px;"><text i18n="url"></text></h3>
+			<input id="url" type="text" name="url">
+
+			<!-- Image -->
+
+			<h3 class="line"><text i18n="image"></text></h3>
+
+			<input id="img" type="text" name="img">
+			<label id="img-upload-label" for="img-upload" class="button colorful upload">
+				<span class="icon-upload-cloud"></span>
+			</label>
+			<input id="img-upload" type="file" accept=".jpeg,.jpg,.png,.gif,.tiff,.bmp,.xcf" />
+
+			<!-- Donation -->
+
+			<h3 class="line"><text i18n="donate"></text></h3>
+
+			<div class="donation small">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="M8XUYBUEC5J3U">
+					<p>
+						<text i18n="donation"></text>&nbsp;
+						<button class="donate" name="submit"><text i18n="donate"></text></button>
+					</p>
+				</form>
+
+			</div>
+
+			<!-- Buttons -->
+
+			<div class="buttons clearfix" style="float:right;">
+				<span ctrl do="bookmarks|addEdit" class="button colorful"><span class="icon-ok"></span><text i18n="save"></text></span>
+				<span ctrl do="dialogues|close" class="button grey"><span class="icon-cancel"></span><text i18n="cancel"></text></span>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+	</div>
+
+</div>
